@@ -29,8 +29,8 @@ section {
 }
 
 #wordPrinting07-trigger {
-	margin: 0px; /* remove all margins to fit two divs in the container */
-	display: inline-block; /* display block elements in one line */
+	margin: 0px;
+	display: inline-block;
 }
 
 #wordPrinting07 {
