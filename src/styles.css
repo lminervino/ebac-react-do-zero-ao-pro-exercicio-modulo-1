@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+sub {
+	font-size: 12px;
+}
+#app {
+	width: 100%;
+}
+section {
+	background-color: whitesmoke;
+}
+.top {
+	background-color: rgb(201, 201, 201);
+}
+.top h1 {
+	text-align: center;
+}
+#wrapper {
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+}
+.wordStyle {
+	color: #5e56b6;
+}
+.inline {
+	width: 100%;
+}
+
+#wordPrinting07-trigger {
+	margin: 0px; /* remove all margins to fit two divs in the container */
+	display: inline-block; /* display block elements in one line */
+}
+
+#wordPrinting07 {
+	margin: 0px;
+	display: inline-block;
+}
+li {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.strong {
+	font-weight: 700;
+}
+.cursive {
+	font-family: cursive;
+}
+.fantasy {
+	font-family: fantasy;
+}
+.fangsong {
+	font-family: fangsong;
+}
+footer {
+	background-color: black;
+	color: white;
+}
