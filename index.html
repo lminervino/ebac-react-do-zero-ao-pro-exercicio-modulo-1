@@ -19,64 +19,66 @@
                 </h1>
             </header>
             <section>
-                <ol start="2">
-                    <li><label for="wordPrinting02-trigger">
-                            Marque a caixa para aparecer <b>A FRASE</b> ao lado</label>
-                        <input type="checkbox" id="wordPrinting02-trigger">:
-                        <span id="wordPrinting02" class="wordStyle"></span>
-                    </li>
-                    <li><label for="wordPrinting03-trigger">Selecione <b>A FRASE</b> correta:</label>
-                        <select id="wordPrinting03-trigger">
-                            <option></option>
-                            <option value="Olá Mundo">Olá Mundo</option>
-                            <option value="Hello World">Hello World</option>
-                            <option value="Hola Mundo">Hola Mundo</option>
+                <article>
+                    <ol start="2">
+                        <li><label for="wordPrinting02-trigger">
+                                Marque a caixa para aparecer <b>A FRASE</b> ao lado</label>
+                            <input type="checkbox" id="wordPrinting02-trigger">:
+                            <span id="wordPrinting02" class="wordStyle"></span>
+                        </li>
+                        <li><label for="wordPrinting03-trigger">Selecione <b>A FRASE</b> correta:</label>
+                            <select id="wordPrinting03-trigger">
+                                <option></option>
+                                <option value="Olá Mundo">Olá Mundo</option>
+                                <option value="Hello World">Hello World</option>
+                                <option value="Hola Mundo">Hola Mundo</option>
 
-                        </select> <span id="result03"></span>
-                    </li>
-                    <li><label for="wordPrinting04-trigger">Mova o controle de progressão para aparecer <b>A
-                                FRASE</b> ao lado
-                        </label>
-                        <input type="range" id="wordPrinting04-trigger" min="0" max="11" value="0"
-                            data-id="wordPrinting04">
-                        <span id="wordPrinting04" class="wordStyle"></span>
-                    </li>
-                    <li>
-                        <button type="button" id="wordPrinting05-trigger">Mostre <b>A FRASE</b> na janela de
-                            alerta</button>
-                    <li><label for="wordPrinting06-trigger">Altere a numeração para aparecer <b>A FRASE</b> ao
-                            lado
-                        </label><input type="number" id="wordPrinting06-trigger" min="0" max="11" value="0"
-                            data-id="wordPrinting06"> <span id="wordPrinting06" class="wordStyle"></span></li>
+                            </select> <span id="result03"></span>
+                        </li>
+                        <li><label for="wordPrinting04-trigger">Mova o controle de progressão para aparecer <b>A
+                                    FRASE</b> ao lado
+                            </label>
+                            <input type="range" id="wordPrinting04-trigger" min="0" max="11" value="0"
+                                data-id="wordPrinting04">
+                            <span id="wordPrinting04" class="wordStyle"></span>
+                        </li>
+                        <li>
+                            <button type="button" id="wordPrinting05-trigger">Mostre <b>A FRASE</b> na janela de
+                                alerta</button>
+                        <li><label for="wordPrinting06-trigger">Altere a numeração para aparecer <b>A FRASE</b> ao
+                                lado
+                            </label><input type="number" id="wordPrinting06-trigger" min="0" max="11" value="0"
+                                data-id="wordPrinting06"> <span id="wordPrinting06" class="wordStyle"></span></li>
 
-                    <li>
-                        <label for="wordPrinting07-trigger">Altere ao cor para mostrar <b>A FRASE</b></label>
-                        <input type="color" id="wordPrinting07-trigger">
+                        <li>
+                            <label for="wordPrinting07-trigger">Altere ao cor para mostrar <b>A FRASE</b></label>
+                            <input type="color" id="wordPrinting07-trigger">
 
-                        <h3 id="wordPrinting07" style="color: whitesmoke;">Hello World</h3>
-                    </li>
-                    <li><label for="wordPrinting08-trigger">
-                            Escreva <b>A FRASE</b> e veja o inverso ao lado:</label>
-                        <input type="text" id="wordPrinting08-trigger">
-                        <span id="wordPrinting08-verse" class="strong wordStyle"></span>
-                        <span> / </span>
-                        <span id="wordPrinting08-reverse" class="strong wordStyle"></span>
-                    <li><label for="wordPrinting09-trigger">Escolha o mês em que estamos para aparecer <b>A
-                                FRASE</b></label>
-                        <input type="month" id="wordPrinting09-trigger">
-                        <span id="wordPrinting09" class="wordStyle"></span>
-                    <li>
-                        <span>Altere a fonte de <b id="wordPrinting10">Hello World</b>, escolhendo uma das
-                            seguintes opções:
-                            Cursive<input type="radio" data-style="cursive" name="wordFont"
-                                class="wordPrinting10-trigger">
-                            Fantasy<input type="radio" data-style="fantasy" name="wordFont"
-                                class="wordPrinting10-trigger">
-                            Fangsong <input type="radio" data-style="fangsong" name="wordFont"
-                                class="wordPrinting10-trigger">
-                        </span>
-                    </li>
-                </ol>
+                            <h3 id="wordPrinting07" style="color: whitesmoke;">Hello World</h3>
+                        </li>
+                        <li><label for="wordPrinting08-trigger">
+                                Escreva <b>A FRASE</b> e veja o inverso ao lado:</label>
+                            <input type="text" id="wordPrinting08-trigger">
+                            <span id="wordPrinting08-verse" class="strong wordStyle"></span>
+                            <span> / </span>
+                            <span id="wordPrinting08-reverse" class="strong wordStyle"></span>
+                        <li><label for="wordPrinting09-trigger">Escolha o mês em que estamos para aparecer <b>A
+                                    FRASE</b></label>
+                            <input type="month" id="wordPrinting09-trigger">
+                            <span id="wordPrinting09" class="wordStyle"></span>
+                        <li>
+                            <span>Altere a fonte de <b id="wordPrinting10">Hello World</b>, escolhendo uma das
+                                seguintes opções:
+                                Cursive<input type="radio" data-style="cursive" name="wordFont"
+                                    class="wordPrinting10-trigger">
+                                Fantasy<input type="radio" data-style="fantasy" name="wordFont"
+                                    class="wordPrinting10-trigger">
+                                Fangsong <input type="radio" data-style="fangsong" name="wordFont"
+                                    class="wordPrinting10-trigger">
+                            </span>
+                        </li>
+                    </ol>
+                </article>
             </section>
             <footer>
                 <p>Desenvolvido por Luciano Minervino</p>
